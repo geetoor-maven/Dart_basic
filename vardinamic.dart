@@ -22,6 +22,6 @@ void main(){
   // akan tetapi ketika variabel di deklarasikan tanpa adanya pemberian nilai
   // maka variable tersebut akan di nyatakan dinamic
   print("---------------------------------------------");
-  var c;
-  print(c is dynamic);
+  //var c;
+  // print(c is dynamic);
 }
