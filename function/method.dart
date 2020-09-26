@@ -11,6 +11,11 @@ int Sum(int a, int b){
 }
 
 void main(List<String> args) {
+
+  // fungsi tanpa nama
+  var tanpanama = (){
+    print('Tes fungsi tanpa nama');
+  };
   
   Test();
 
@@ -20,4 +25,6 @@ void main(List<String> args) {
   int b = int.parse(stdin.readLineSync());
 
   print(Sum(a, b));
+  
+  tanpanama();
 }
